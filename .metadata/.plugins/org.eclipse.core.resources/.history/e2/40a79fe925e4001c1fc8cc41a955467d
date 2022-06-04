@@ -1,0 +1,16 @@
+
+public class AsteriskLogger implements Logger {
+
+	@Override
+	public void log(String log) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void error(String log) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

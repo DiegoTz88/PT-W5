@@ -1,0 +1,11 @@
+
+public class TeamMenuApp {
+
+	public static void main(String[] args) {
+		
+		Player p1 = new Player("Thomas", "Full Back", "Running Fast");
+		p1.describe();
+
+	}
+
+}

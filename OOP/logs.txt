@@ -1,0 +1,4 @@
+Info: Mon May 30 16:45:28 MDT 2022 - Hello
+Warning: Mon May 30 16:45:28 MDT 2022 - This is a warning
+Error: Mon May 30 16:45:28 MDT 2022 - Oops, this is an error
+Fatal: Mon May 30 16:45:28 MDT 2022 - Fatal Error

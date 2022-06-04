@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\tzomp\eclipse-workspace\Promineo HW\Week 5\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3352537029.index
+511651530.index

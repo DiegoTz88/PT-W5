@@ -1,0 +1,15 @@
+
+public class InheritanceAbstractionPolymorphism {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee salary = new SalaryEmployee("Tom", "Sawyer", 2500.00);
+		Employee hourly = new HourlyEmployee("Jake", "Statefarm", 15.00, 75.5);
+		Employee manager = new Manager("Steve", "Willy", 4500.00, 15.5);
+		
+		System.out.println(salary.calculatePay());
+		System.out.println(hourly.calculatePay());
+		System.out.println(manager.calculatePay());
+	}
+
+}

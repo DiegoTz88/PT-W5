@@ -1,0 +1,29 @@
+
+import java.util.*;
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kb = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = kb.nextLine();
+		
+		System.out.println("How much money would you deposit?");
+		
+		double balance = Double.parseDouble(kb.nextLine());
+		
+		
+		
+		BankAccount acct1 = new BankAccount(name, balance);
+		
+		System.out.println("How much would you like to deposit?");
+		balance = balance = Double.parseDouble(kb.nextLine());
+		acct1.deposit(balance);
+		
+		System.out.println("How much would you like to withdrawal?");
+		double withdrawal = Double.parseDouble(kb.nextLine());
+		balance = balance = Double.parseDouble(kb.nextLine());
+		acct1.withdrawal(balance);
+	}
+
+}

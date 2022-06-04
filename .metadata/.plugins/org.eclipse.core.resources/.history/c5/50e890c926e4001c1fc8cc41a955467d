@@ -1,0 +1,32 @@
+import java.io.BufferedWriter;
+import java.io.IOException;
+
+public class SpaceLogger implements Logger {
+
+	private BufferedWriter writer;
+		
+
+	@Override
+	public void log(String log) {
+		
+		
+	}
+
+	@Override
+	public void error(String error) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void close() {
+		// TODO Auto-generated method stub
+		try {
+			writer.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}
